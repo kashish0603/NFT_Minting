@@ -1,0 +1,40 @@
+<html>
+    <head>
+      <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+      <script src="https://unpkg.com/moralis-v1/dist/moralis.min.js"></script>
+      <!-- <script type="text/javascript" src="./index.js"></script> -->
+      <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>      
+        <div class="parent-div">
+            <div class="main-div">
+                <form action="./minted_page/minted.html">
+                    <h1>NFT Details</h1>
+
+                    <div class="input-label">
+                        <input type="text" class="question" id="name" />
+                        <label for="nme"><span>NFT Name</span></label>
+                    </div>
+
+                    <div class="input-label">
+                        <input type="text" rows="2" class="question" id="description">
+                        <label for="msg"><span>NFT Description</span></label>
+                    <div>
+
+                    <div class="input-label-image">
+                        <input type="file" class="question" id="image" />
+                    </div>
+                    
+                    <div class="button_subm">
+                        <button id="btn-login" class="button" onclick="login()">Connect to Wallet</button>
+                    </div>
+                    <div class="button_subm">
+                        <button id="btn-upload" class="button" onclick="upload()">Upload</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

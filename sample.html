@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- What is meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Pompiere|Amiko|Rambla|Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sample.css">
+    <link rel="stylesheet" href="./minted_page/minted.css">
+
+</head>
+<body>
+    <div id="loader_id" class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>             
+    
+    <div class="main-1-div" id="minted_pamge">
+        <div class="detail-side">
+            <h1>CONGRATULATIONS 🥳🥳</h1>
+            <p>Your NFT has been minted ✨✨</p>
+            <div class="input-fields">
+                <div class="name-div">
+                    <h3>NFT NAME</h3>
+                    <p id="nft-para-69">Cryptox</p>
+                </div>
+                <div class="name-div">
+                    <h3>NFT Decription</h3>
+                    <p id="nft-desc-69">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita, voluptates
+                        consequatur officia consectetur est debitis, ipsum doloribus cumque voluptate porro 
+                        ex velit veritatis placeat magni aspernatur, quasi repellat nobis?
+                    </p>
+                </div>
+                <div class="name-div">
+                    <h3>OpenSea Testnet URL:</h3>
+                    <p>
+                        <a id="myAnchor" href="https://testnets.opensea.io/assets/rinkeby/0x3a458Db8C1EEbEF5E0d5FaC0a84B68E13EDA1c42/1">
+                            Click Here to see your Minted NFT 🥳🥳
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="image-side">
+            <img id="image_pic" src="./minted_page/Images/61fa1da89234231e780ce65e_Dark Terminal.jpg">
+        </div>
+    </div>
+
+    <div class="button_subm">
+        <button id="btn-login" class="button" onclick="login()">
+            Connect to Wallet
+            <p>💳</p>
+        </button>
+    </div>
+
+    <div class="parent-div">   
+        <div class="main-div" id="main-loader">
+            <form>
+                <div class="nft-minter-heading">
+                    <p>🎅</p>
+                    <h1>Mint-OX NFT Minter</h1>
+                </div>
+
+                <div class="input-label">
+                    <div class="div-label">
+                        <p>👽</p>
+                        <label for="nme"><span>NFT Name: </span></label>
+                    </div>
+                    <input type="text" class="question" id="name" placeholder="e.g. Cryptox" />
+                </div>
+
+                <div class="input-label">
+                    <div class="div-label">
+                        <p>🐬</p>
+                        <label for="msg"><span>NFT Description: </span></label>
+                    </div>
+                    <input type="text" rows="2" class="question" id="description" placeholder="e.g. Cryptox is an interactive 2 day workshop">
+                <div>
+
+                <div class="input-label-image">
+                    <div class="div-label">
+                        <p>🤯</p>
+                        <label for="msg"><span>Upload Image: </span></label>
+                    </div>
+                    <input type="file" class="question" id="image" />
+                </div>
+
+                <div class="button_subm">
+                    <button id="btn-upload" class="button" onclick="upload()">
+                        Mint NFT
+                        <p>🤑</p>
+                    </button>
+                    
+                </div>
+
+            </form>
+        </div>
+
+        
+
+   
+
+
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis-v1/dist/moralis.min.js"></script>
+    <!-- <script type="text/javascript" src="./index.js"></script> -->
+    <script src="./index.js"></script>
+</body>
+</html>

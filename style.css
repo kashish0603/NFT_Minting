@@ -1,0 +1,92 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+    transition: 0.8s;
+}
+
+body{
+    background: #0d0d0d;
+}
+
+h1{
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div{
+    margin-top: 8rem;
+    width: 60%;
+}
+
+input{
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: none;
+    padding: 0.3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.input-label {
+    padding: 0.3rem;
+    margin: 1rem;
+}
+
+.input-label-image {
+    padding-top: 0.3rem;
+    margin: 1rem 0;
+}
+
+button {
+    border: 2px solid blue;
+    padding: 0.4rem 1rem;
+    color: white;
+    background: none;
+    margin: 1rem 0;
+    width: 30%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover  {
+    background: white;
+    /* border: 2px solid white; */
+    color: blue;
+    transition: 0.3s;
+}
+
+.button_subm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button
+{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-family: poppins;
+    border: 2px solid blue;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.button:hover
+{
+    transition: 0.6s;
+    background: none;
+    color: white;
+    box-shadow: 0 1px 1px 0 blue inset, 0 1px 5px 0 blue,
+                0 1px 1px 0 blue inset, 0 1px 5px 0 blue;
+    text-shadow: 0 0 1px blue, 0 0 15px white;
+}
